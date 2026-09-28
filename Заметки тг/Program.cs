@@ -54,7 +54,7 @@ namespace DarkAbaddonBot
 
     class Program
     {
-        private static string botToken = "8901066505:AAFSrc4NbFrlGU_N8lbNPTlHBCu2vxHlEU4";
+        private static string botToken = "введи токен бота";
         private static TelegramBotClient botClient;
         private static readonly string dbFilePath = "users_notes_db.json";
         private static Dictionary<string, List<string>> _brainContext = null;
